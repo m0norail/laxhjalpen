@@ -1,0 +1,66 @@
+body {
+ margin: auto;
+ width: 860px;
+ font-family: sans-serif;
+ font-size: 100%;
+}
+
+.menu a:link, .menu a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+.menu a:focus, .menu a:hover {
+	text-decoration: underline;
+	color: #a62f00;
+}
+
+.menu a:active {
+	text-decoration: underline;
+	color: #ff4900;
+}
+
+section, header, footer {
+	outline: 1px solid #f00; /* Temporary for development only */
+}
+
+header {
+	text-align: center;
+}
+
+.startpage > section > h1 {
+	font-size: 500%;        /* För den största rubriken */
+}
+
+.tagline {
+	font-size: 120%;
+	padding: 0.5em;
+	border-top: 3px double #00af64;
+	border-bottom: 3px double #00af64;
+	margin: 4em 0;
+}
+
+.startpage > section {
+	display: inline-block;
+	width: 20%;
+	margin-right: 6%;
+	vertical-align: top;
+}
+
+.startpage > section:Last-of-type {
+	margin-right: 0;
+}
+
+.startpage > section > h2 {
+	margin: 0 0 1em;
+	padding: 2em 0;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+
+footer {
+	display: block;
+	margin-top: 3em;
+	text-align: center;
+	color: #999;
+}
